@@ -1,0 +1,105 @@
+Simulating a cache with 2 total lines; each line has 1 words
+Each set in the cache contains 1 lines; there are 2 sets
+$$$ transferring word [0-0] from the memory to the cache
+$$$ transferring word [0-0] from the cache to the processor
+$$$ transferring word [0-0] from the cache to nowhere
+$$$ transferring word [16-16] from the memory to the cache
+$$$ transferring word [16-16] from the cache to the processor
+$$$ transferring word [1-1] from the memory to the cache
+$$$ transferring word [1-1] from the cache to the processor
+$$$ transferring word [1-1] from the cache to nowhere
+$$$ transferring word [17-17] from the memory to the cache
+$$$ transferring word [17-17] from the processor to the cache
+$$$ transferring word [16-16] from the cache to nowhere
+$$$ transferring word [2-2] from the memory to the cache
+$$$ transferring word [2-2] from the cache to the processor
+$$$ transferring word [17-17] from the cache to the processor
+$$$ transferring word [17-17] from the cache to the memory
+$$$ transferring word [3-3] from the memory to the cache
+$$$ transferring word [3-3] from the cache to the processor
+$$$ transferring word [2-2] from the cache to nowhere
+$$$ transferring word [4-4] from the memory to the cache
+$$$ transferring word [4-4] from the cache to the processor
+$$$ transferring word [3-3] from the cache to nowhere
+$$$ transferring word [19-19] from the memory to the cache
+$$$ transferring word [19-19] from the processor to the cache
+$$$ transferring word [19-19] from the cache to the memory
+$$$ transferring word [5-5] from the memory to the cache
+$$$ transferring word [5-5] from the cache to the processor
+$$$ transferring word [5-5] from the cache to nowhere
+$$$ transferring word [19-19] from the memory to the cache
+$$$ transferring word [19-19] from the cache to the processor
+$$$ transferring word [4-4] from the cache to nowhere
+$$$ transferring word [6-6] from the memory to the cache
+$$$ transferring word [6-6] from the cache to the processor
+$$$ transferring word [19-19] from the cache to nowhere
+$$$ transferring word [7-7] from the memory to the cache
+$$$ transferring word [7-7] from the cache to the processor
+$$$ transferring word [6-6] from the cache to nowhere
+$$$ transferring word [8-8] from the memory to the cache
+$$$ transferring word [8-8] from the cache to the processor
+$$$ transferring word [7-7] from the cache to nowhere
+$$$ transferring word [9-9] from the memory to the cache
+$$$ transferring word [9-9] from the cache to the processor
+$$$ transferring word [8-8] from the cache to nowhere
+$$$ transferring word [18-18] from the memory to the cache
+$$$ transferring word [18-18] from the cache to the processor
+$$$ transferring word [18-18] from the cache to nowhere
+$$$ transferring word [10-10] from the memory to the cache
+$$$ transferring word [10-10] from the cache to the processor
+$$$ transferring word [9-9] from the cache to nowhere
+$$$ transferring word [11-11] from the memory to the cache
+$$$ transferring word [11-11] from the cache to the processor
+$$$ transferring word [10-10] from the cache to nowhere
+$$$ transferring word [12-12] from the memory to the cache
+$$$ transferring word [12-12] from the cache to the processor
+$$$ transferring word [11-11] from the cache to nowhere
+$$$ transferring word [13-13] from the memory to the cache
+$$$ transferring word [13-13] from the cache to the processor
+$$$ transferring word [13-13] from the cache to nowhere
+$$$ transferring word [19-19] from the memory to the cache
+$$$ transferring word [19-19] from the processor to the cache
+$$$ transferring word [12-12] from the cache to nowhere
+$$$ transferring word [14-14] from the memory to the cache
+$$$ transferring word [14-14] from the cache to the processor
+$$$ transferring word [19-19] from the cache to the memory
+$$$ transferring word [15-15] from the memory to the cache
+$$$ transferring word [15-15] from the cache to the processor
+machine halted
+total of 16 instructions executed
+final state of machine:
+
+@@@
+state:
+	pc 16
+	memory:
+		mem[ 0 ] 8454160
+		mem[ 1 ] 12648465
+		mem[ 2 ] 8519697
+		mem[ 3 ] 655363
+		mem[ 4 ] 12779539
+		mem[ 5 ] 8650771
+		mem[ 6 ] 6553604
+		mem[ 7 ] 6553604
+		mem[ 8 ] 6553604
+		mem[ 9 ] 8781842
+		mem[ 10 ] 4784129
+		mem[ 11 ] 917505
+		mem[ 12 ] 2162692
+		mem[ 13 ] 12845075
+		mem[ 14 ] 18939894
+		mem[ 15 ] 25165824
+		mem[ 16 ] 10
+		mem[ 17 ] 10
+		mem[ 18 ] 1
+		mem[ 19 ] -31
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] -10
+		reg[ 2 ] 10
+		reg[ 3 ] 20
+		reg[ 4 ] -31
+		reg[ 5 ] 0
+		reg[ 6 ] 1
+		reg[ 7 ] 0
+end state

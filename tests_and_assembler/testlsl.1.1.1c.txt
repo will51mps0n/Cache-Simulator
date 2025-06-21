@@ -1,0 +1,78 @@
+Simulating a cache with 1 total lines; each line has 1 words
+Each set in the cache contains 1 lines; there are 1 sets
+$$$ transferring word [0-0] from the memory to the cache
+$$$ transferring word [0-0] from the cache to the processor
+$$$ transferring word [0-0] from the cache to nowhere
+$$$ transferring word [6-6] from the memory to the cache
+$$$ transferring word [6-6] from the cache to the processor
+$$$ transferring word [6-6] from the cache to nowhere
+$$$ transferring word [1-1] from the memory to the cache
+$$$ transferring word [1-1] from the cache to the processor
+$$$ transferring word [1-1] from the cache to nowhere
+$$$ transferring word [7-7] from the memory to the cache
+$$$ transferring word [7-7] from the processor to the cache
+$$$ transferring word [7-7] from the cache to the memory
+$$$ transferring word [2-2] from the memory to the cache
+$$$ transferring word [2-2] from the cache to the processor
+$$$ transferring word [2-2] from the cache to nowhere
+$$$ transferring word [6-6] from the memory to the cache
+$$$ transferring word [6-6] from the cache to the processor
+$$$ transferring word [6-6] from the cache to nowhere
+$$$ transferring word [3-3] from the memory to the cache
+$$$ transferring word [3-3] from the cache to the processor
+$$$ transferring word [3-3] from the cache to nowhere
+$$$ transferring word [4-4] from the memory to the cache
+$$$ transferring word [4-4] from the cache to the processor
+$$$ transferring word [4-4] from the cache to nowhere
+$$$ transferring word [28-28] from the memory to the cache
+$$$ transferring word [28-28] from the processor to the cache
+$$$ transferring word [28-28] from the cache to the memory
+$$$ transferring word [5-5] from the memory to the cache
+$$$ transferring word [5-5] from the cache to the processor
+machine halted
+total of 6 instructions executed
+final state of machine:
+
+@@@
+state:
+	pc 6
+	memory:
+		mem[ 0 ] 8454150
+		mem[ 1 ] 12648455
+		mem[ 2 ] 8454150
+		mem[ 3 ] 589825
+		mem[ 4 ] 13172744
+		mem[ 5 ] 25165824
+		mem[ 6 ] 10
+		mem[ 7 ] 10
+		mem[ 8 ] 0
+		mem[ 9 ] 0
+		mem[ 10 ] 0
+		mem[ 11 ] 0
+		mem[ 12 ] 0
+		mem[ 13 ] 0
+		mem[ 14 ] 0
+		mem[ 15 ] 0
+		mem[ 16 ] 0
+		mem[ 17 ] 0
+		mem[ 18 ] 0
+		mem[ 19 ] 0
+		mem[ 20 ] 0
+		mem[ 21 ] 0
+		mem[ 22 ] 0
+		mem[ 23 ] 0
+		mem[ 24 ] 0
+		mem[ 25 ] 0
+		mem[ 26 ] 0
+		mem[ 27 ] 0
+		mem[ 28 ] 20
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 20
+		reg[ 2 ] 0
+		reg[ 3 ] 0
+		reg[ 4 ] 0
+		reg[ 5 ] 0
+		reg[ 6 ] 0
+		reg[ 7 ] 0
+end state

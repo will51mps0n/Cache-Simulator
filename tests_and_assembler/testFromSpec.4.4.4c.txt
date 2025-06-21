@@ -1,0 +1,33 @@
+Simulating a cache with 16 total lines; each line has 4 words
+Each set in the cache contains 4 lines; there are 4 sets
+$$$ transferring word [0-3] from the memory to the cache
+$$$ transferring word [0-0] from the cache to the processor
+$$$ transferring word [4-7] from the memory to the cache
+$$$ transferring word [4-4] from the cache to the processor
+$$$ transferring word [1-1] from the cache to the processor
+$$$ transferring word [4-4] from the cache to the processor
+$$$ transferring word [2-2] from the cache to the processor
+$$$ transferring word [3-3] from the cache to the processor
+machine halted
+total of 4 instructions executed
+final state of machine:
+
+@@@
+state:
+	pc 4
+	memory:
+		mem[ 0 ] 8454148
+		mem[ 1 ] 8454148
+		mem[ 2 ] 589826
+		mem[ 3 ] 25165824
+		mem[ 4 ] 5
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 5
+		reg[ 2 ] 10
+		reg[ 3 ] 0
+		reg[ 4 ] 0
+		reg[ 5 ] 0
+		reg[ 6 ] 0
+		reg[ 7 ] 0
+end state
